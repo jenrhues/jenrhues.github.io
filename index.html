@@ -11,28 +11,141 @@
   <link rel="stylesheet" href="css/main.css">
 </head>
 
-<body>
+<head>
+<style>
+h1 {text-align: center; color: darkorange; text-shadow: 70px 20px 2px #000080}
+h2 {text-align: center;}
+h3 {text-align: center;}
+div {text-align: center;}
+nav {text-align: center;}
+footer1 {
+  text-align: center;
+  margin: 0 0 0 20px;
+}
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+iframe{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+p {
+  text-align: center;
+  margin: 0 60px;
+}
+
+</style>
+</head>
+
+<body style="background-color:powderblue;">>
   <header>
-    <p>My Portfolio</p>
     <nav>
-      <ul>
-        <li>
-          <a href="/">Home</a>
-        </li>
-        <li>
-          <a href="#projects">Projects</a>
-        </li>
-        <li>
-          <a href="/about">About</a>
-        </li>
-        <li>
-          <a href="#contact">Contact</a>
-        </li>
-      </ul>
+
+      <a href="#about">About</a>
+      <a href="#projects">Projects</a>
+      <a href="#awards">Awards</a>
+      <a href="#resume">Resume</a>
+      <a href="#contact">Contact</a>
     </nav>
   </header>
-  <main></main>
-  <footer></footer>
+  <main>
+    <section>
+      <h1>Jennifer Huestis</h1>
+      <iframe src="https://drive.google.com/file/d/1qksz9Y8LKCll_1Es9vKtRswwAhlEiTUE/preview" width="640" height="480" class="center"></iframe>
+    </section>
+
+    <section id="about">
+      <h2>About Me</h2>
+      <p>
+        After graduating Dresden High School as the salutatorian of her class, she pursued
+        a successful career in electrical engineering before finding her true passion
+        in programming. She is currently a computer science major with a concentration
+        in digital hardware and embedded systems, and she is set to graduate in May of
+        2021. During her time at the University of Tennessee at Martin, Jennifer
+        has contributed to multiple microcontroller-based projects, which can be viewed in
+        the "Projects" section. Thanks to her interpersonal skills, she has been working
+        successfully as a STEM Tutor for advanced mathematics and as a SI Leader for
+        Computer Science.
+      </p>
+    </section>
+
+    <section id="projects">
+      <h2>Projects</h2>
+        <article>
+          <header>
+            <h3>Senior Design: Flight Control Software</h3>
+          </header>
+          <p>
+            Converted autonomous navigation program for a glider from Arduino to MicroPython and revised program to
+            include multithreading and socket networking from ground station to glider. (Partner Project)
+          </p>
+          <img src="https://drive.google.com/thumbnail?id=1-eICVmxDhqfpbUlhNvVMxMCZqSyWmj2W" alt="Placeholder image" class="center" style="width:300px;height:150px;">
+          <footer>
+            <p>
+              <a href="https://github.com/jenrhues/Flight_Control_Software">Github Repository</a>
+            </p>
+          </footer>
+        </article>
+
+        <article>
+          <header>
+            <h3>Software Engineering: Coding with Octocat</h3>
+          </header>
+          <p>
+            Designed and implemented an auto-run WPF game where a player survives as far as possible. (Partner Project)
+          </p>
+          <img src="https://drive.google.com/thumbnail?id=1gtbfJKbkIWhjPdcrxashOPhQQKStXWuN" alt="Placeholder image" class="center" style="width:300px;height:150px;">
+          <footer>
+            <p>
+              <a href="https://github.com/Treahall/Game">Github Repository</a>
+            </p>
+          </footer>
+        </article>
+
+        <article>
+          <header>
+            <h3>Microprocessors and Computer Organization: Battleship Duplicate</h3>
+          </header>
+          <p>
+            Designed and implemented a one player version of Battleship in Arduino using an LCD, a potentiometer, a
+            membrane switch module, and an Arduino MEGA 2560. (Solo Project)
+          </p>
+          <img src="https://drive.google.com/thumbnail?id=1Gcwt7hgvO8Qv3WlqNI_Tdw_dYkvaZB_r" alt="Placeholder image" class="center" style="width:300px;height:300px;">
+          <footer>
+            <p>
+              <a href="file:///C:/Users/jenni/Documents/Former%20Coursework/ENGR%20460L%20Report/Battleship_Duplicate_Jennifer%20Huestis.pdf">Project Report</a>
+            </p>
+          </footer>
+        </article>
+    </section>
+
+    <section id="awards">
+      <h2>Awards</h2>
+      <iframe src="file:///C:/Users/jenni/Documents/CSCI%20495/ug%202nd.pdf" width="800px" height="700px"></iframe>
+    </section>
+
+    <section id="resume">
+      <h2>Resume</h2>
+        <iframe src="file:///C:/Users/jenni/Documents/Jobs/Jennifer%20Huestis%20Resume%2011_24_20.pdf#toolbar=0" width="800px" height="1067px">
+        </iframe>
+    </section>
+
+    <section id="contact">
+      <h2>Contact Me</h2>
+        <p>
+          Email: <a href="mailto:jenniferhuestis@gmail.com">jenniferhuestis@gmail.com</a>
+        </p>
+        <p>
+          Phone: (731) 514-9293
+        </p>
+    </section>
+  </main>
+      <footer1>
+        <p>&copy; 2020 - Jennifer Huestis - All rights reserved</p>
+      </footer1>
 </body>
 
 </html>
